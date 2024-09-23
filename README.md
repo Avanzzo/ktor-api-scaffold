@@ -51,8 +51,8 @@ graph TD
 
 #### Argument for Choosing CQRS
 
-The CQRS architecture was chosen for the Digital Account API because it effectively handles the complexity and
-scalability requirements of managing digital banking operations. By separating read and write functionalities, it
+The CQRS architecture was chosen for the Scaffold API because it effectively handles the complexity and
+scalability requirements of large set of applications. By separating read and write functionalities, it
 provides a clear path for optimizing various aspects of the system independently. Additionally, it simplifies the
 maintenance of the codebase and supports future growth, allowing for enhanced performance and flexibility.
 
@@ -64,7 +64,7 @@ maintenance of the codebase and supports future growth, allowing for enhanced pe
 
 ### Use of Ktor and Kotlin
 
-The Digital Account API utilizes Ktor as its framework and Kotlin as its programming language. Ktor is a modern and
+The Scaffold API utilizes Ktor as its framework and Kotlin as its programming language. Ktor is a modern and
 lightweight web framework built specifically for Kotlin, which facilitates the creation of asynchronous servers and web
 applications. Leveraging Kotlin’s expressive syntax and robust features, Ktor allows for intuitive code writing, making
 it perfect for crafting scalable and maintainable microservices. The combination of Ktor and Kotlin provides a powerful
@@ -73,7 +73,7 @@ existing tools and libraries.
 
 #### Justification for Ktor and Kotlin
 
-Choosing Ktor and Kotlin for the Digital Account API stack offers several advantages. Kotlin, known for its expressive
+Choosing Ktor and Kotlin for the Scaffold Account API stack offers several advantages. Kotlin, known for its expressive
 syntax and interoperability with Java, ensures that developers can write concise and readable code while leveraging
 existing Java libraries. Its statically-typed nature adds an extra layer of safety, reducing runtime errors through
 compile-time checks. Ktor, designed to work seamlessly with Kotlin, streamlines the process of building asynchronous web
