@@ -1,0 +1,29 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API Specification",
+    "description": "API Specification",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https"
+    }
+  ],
+  "paths": {
+    "/health/check": {
+      "get": {
+        "summary": "Checks the health status of the server and container.",
+        "responses": {
+          "200": {
+            "description": "Server is healthy"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+    }
+  }
+}
