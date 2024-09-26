@@ -116,4 +116,5 @@ dependency for running the service.
 
 ### To Do
 
+- [ ] Clean Scaffold Readme
 - [ ] Write README for the forked project
