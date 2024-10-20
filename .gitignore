@@ -1,12 +1,23 @@
 # IntelliJ IDEA
+.idea
+.idea/*
 /.idea/
+/.idea
+/.idea/*
 *.iws
 *.iml
 *.ipr
 
 # Gradle
+.gradle
+.gradle/
+.gradle/*
+/.gradle
 /.gradle/
 /.gradle/*
+/*/.gradle
+/*/.gradle/
+/*/.gradle/*
 api/.gradle/
 api/.gradle/*
 /build/
@@ -19,13 +30,24 @@ api/.gradle/*
 /gradle/*
 /out/
 /out/*
+/gradlew.bat
 *.bat
 !gradle-wrapper.properties
 
 # Kotlin
 *.class
 *.kt.user
-/.idea/*
+/*/*.class
+/*/*.kt.user
+.kotlin
+.kotlin/*
+/.kotlin
+/.kotlin/*
+/*/.kotlin/
+/*/.kotlin/*
+
+# Kotlin Notebook
+*.knb
 
 # Ktor
 application.log
@@ -41,9 +63,6 @@ Thumbs.db
 /logs/*
 *.log
 
-# Kotlin Notebook
-*.knb
-
 # Directories for IDEs
 .vscode/
 .vscode-workspace/
@@ -52,8 +71,3 @@ Thumbs.db
 ._*
 .Spotlight-V100
 .Trashes
-# Ignore Gradle project-specific cache directory
-/.gradle
-/.kotlin
-/.kotlin/*
-/gradlew.bat
