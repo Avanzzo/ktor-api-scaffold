@@ -5,3 +5,5 @@ plugins {
 
 rootProject.name = "ktor-api-scaffold"
 include("api")
+include("authenticator")
+include("utils")
