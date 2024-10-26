@@ -14,3 +14,4 @@ Tool to handle API authentication flows, including JWT token generation, validat
 
 ### References
 - [My Notion JSON Web Tokens](https://www.notion.so/fernando-avanzo/Doc-JSON-Web-Tokens-125b3def3e7c80099293f2b8ec520b9b?pvs=4)
+- [My Notion Ktor](https://www.notion.so/fernando-avanzo/stack-Ktor-316e609909fb437a8b5f1ce83d28399f?pvs=4)
